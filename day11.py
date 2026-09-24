@@ -21,9 +21,7 @@
 #5. print numbers divisible by both 5 and 7 from 1 to 100 and above list
 
 #for x in range(1,101):
-    #if x % 5 == 0 :
-       # print (x,end=',')
-   # if x % 7 == 0 :
+    #if x % 5 == 0 and x % 7 == 0 :
       #  print (x,end=',') # print(/n/n)/n means new line how many time we uses /n takes space
       
 # f ''
@@ -92,24 +90,19 @@ string = input("enter a string:")
 vowels = "aeiouAEIOU"
 count = 0
 
-for char in string:
-    if char in vowels:
+for x in string:
+    if x in vowels:
         count += 1
         
 print("number of vowels: ",count)
 
 #12. count z's and y's in a string
-string = input("enter a string:")
-
-d = "zy"
+s = input("enter a string:")
 count = 0
-
-for char in string:
-    if char in d:
+for x in s:
+    if x in 'zZyY':
         count += 1
-        
-print("number of d: ",count)
-
+print(" Total z/'s and y/'s in given string",count )
 
 
 #13. check whether a number is prime number or not

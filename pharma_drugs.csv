@@ -1,0 +1,4 @@
+Drug_ID,Brand_Name,Generic_Name,Category,Quantity,Price,Expiry_Date,Manufacturer,Batch_Number
+NOO1,DOLO650,PARACETAMOL,NSIDS,250,2.5,2027.08.10,ABC,M001
+13,NBJH,"B,JBL",BJB;KN,MNK,MLKN,2002.10.02,JBKH,; ;K
+1,1,,1,250,2.5,2026-09-11,jbkj,mk;';

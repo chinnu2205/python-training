@@ -1,7 +1,7 @@
-DAY 5 Task (20mins)
-Write outputs of following without running the code:
+#DAY 5 Task (20mins)
+#Write outputs of following without running the code:
 
-1. strip, lstrip, rstrip methods
+#1. strip, lstrip, rstrip methods
 a = '   python is simple   '
 print(a.strip())
 #removes both spaces and give output
@@ -10,14 +10,14 @@ print(a.lstrip())
 print(a.rstrip())
 #removes right side spaces
 
-2. replace
+#2. replace
 a = 'python is simple, python is easy, python is allrounder'
 b = a.replace('python', 'java')
 #'java is simple, java is east, java is allrounder
 print(a)
 print(b)
 
-3. upper, lower, swapcase, title, capitalize
+#3. upper, lower, swapcase, title, capitalize
 a = 'PYTHON is siMPle'
 print(a.lower())
 #out put, python is simple
@@ -30,7 +30,7 @@ print(a.title())
 print(a.capitalize())
 #out put, Python is simple
 
-4. count, startswith, endswith
+#4. count, startswith, endswith
 a = 'abacad'
 b = a.startswith('a')
 #out put abaca
@@ -51,13 +51,13 @@ print(e)
 print(f)
 print(g)
 
-5. find, rfind, index, rindex
+#5. find, rfind, index, rindex
 s = 'abacada'
 print(s.find('a'))
 #0
 print(s.find('a', 3))
 #4
-print(s.find('a', 4, 8)
+print(s.find('a', 4, 8))
       #-1
 print(s.rfind('a'))
 #6
@@ -82,9 +82,9 @@ print(s.index('z'))
 print(s.find('z'))
 #-1
 
-6. is methods
+#6. is methods
 a = ' '
-b = ' a'
+b = 'a'
 print(a.isspace())
 #'' ''
 print(b.isspace())
@@ -102,7 +102,7 @@ print(c.isapha())
 a = '13'
 print(a.isdigit())
 #true
-b = '12a
+b = '13a'
 print(b.isdigit())
 #false
 
